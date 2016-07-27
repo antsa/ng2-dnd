@@ -438,6 +438,8 @@ System.registerDynamic("src/dnd.sortable", ["@angular/core", "./dnd.component", 
     __decorate([core_2.Input(), __metadata('design:type', Object)], SortableComponent.prototype, "dragData", void 0);
     __decorate([core_2.Input("effectAllowed"), __metadata('design:type', String), __metadata('design:paramtypes', [String])], SortableComponent.prototype, "effectallowed", null);
     __decorate([core_2.Input("effectCursor"), __metadata('design:type', String), __metadata('design:paramtypes', [String])], SortableComponent.prototype, "effectcursor", null);
+    __decorate([core_2.Input(), __metadata('design:type', Object)], SortableComponent.prototype, "dragImage", void 0);
+    __decorate([core_2.Input(), __metadata('design:type', Boolean)], SortableComponent.prototype, "cloneItem", void 0);
     __decorate([core_2.Output("onDragSuccess"), __metadata('design:type', core_2.EventEmitter)], SortableComponent.prototype, "onDragSuccessCallback", void 0);
     __decorate([core_2.Output("onDragStart"), __metadata('design:type', core_2.EventEmitter)], SortableComponent.prototype, "onDragStartCallback", void 0);
     __decorate([core_2.Output("onDragOver"), __metadata('design:type', core_2.EventEmitter)], SortableComponent.prototype, "onDragOverCallback", void 0);
