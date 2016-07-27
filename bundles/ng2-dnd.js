@@ -705,7 +705,7 @@ System.registerDynamic("src/dnd.component", ["@angular/core", "./dnd.config", ".
         }
       };
       this._elem.ondragend = function(event) {
-        _this._elem.parentElement.removeChild(_this._dragHelper);
+        _this._dragHelper.parentElement.removeChild(_this._dragHelper);
         _this._onDragEnd(event);
         _this._elem.style.cursor = _this._defaultCursor;
       };
