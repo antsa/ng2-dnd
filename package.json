@@ -2,6 +2,7 @@
   "name": "ng2-dnd",
   "description": "Angular 2 Drag-and-Drop without dependencies",
   "main": "index.js",
+  "version": "0.10.1",
   "scripts": {
     "test": "tsc && karma start",
     "test-watch": "tsc && karma start --no-single-run --auto-watch",
